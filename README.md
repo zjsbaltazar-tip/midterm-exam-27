@@ -2,7 +2,7 @@
 
 # Midterm Exam #27
 
-**Developer:** Zeus James S. Baltazar
+**Developer:** Zeus James S. Baltazar<br>
 **Date Performed:** 04/20/2022; Wednesday
 
 ```
