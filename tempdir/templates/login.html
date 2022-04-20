@@ -1,0 +1,18 @@
+<!-- Login Page -->
+{% extends 'base.html' %}
+{% block page_title %}Login User Page{% endblock %}
+{% block page_content %}
+<h2 class="fnt-clr-orange">Login</h2>
+<form method="POST">
+    <label for="username">Username:</label>
+    <input type="text" name="username" id="username" placeholder="Insert username"><br>
+    <label for="password">Password:</label>
+    <input type="password" name="password" id="password" placeholder="Insert password"><br>
+    <button style="background-color: greenyellow;" type="submit" onclick="alert('You have succesfully logged in!');">Log In</button>
+    <a href="{{ url_for('registerUser') }}">
+        <button style="background-color: darksalmon;" type="button">
+            Register
+        </button>
+    </a>
+</form>
+{% endblock %}
