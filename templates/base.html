@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <!-- Set current page title -->
+        <title>{% block page_title %}{% endblock %}</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/page_style.css') }}">
+    </head>
+    <body class="bg fnt-styl">
+        <!-- Current content of the application -->
+        {% block page_content %}
+        {% endblock %}
+    </body>
+</html>

@@ -1,0 +1,19 @@
+<!-- Register Page -->
+{% extends 'base.html' %}
+{% block page_title %}Register User Page{% endblock %}
+{% block page_content %}
+<h2 class="fnt-clr-blue">Register</h2>
+<form method="POST">
+    <label for="first_name">First Name:</label>
+    <input type="text" name="first_name" id="first_name" placeholder="Insert first name"><br>
+    <label for="last_name">Last Name:</label>
+    <input type="password" name="last_name" id="last_name" placeholder="Insert last name"><br>
+    <label for="username">Username:</label>
+    <input type="text" name="username" id="username" placeholder="Insert username"><br>
+    <label for="password1">Password:</label>
+    <input type="password" name="password1" id="password1" placeholder="Insert password"><br>
+    <label for="password2">Confirm Password:</label>
+    <input type="password" name="password2" id="password2" placeholder="Confirm password"><br>
+    <button style="background-color: darksalmon;" type="submit" onclick="alert('User has been succesfully registered!');">Register</button>
+</form>
+{% endblock %}
